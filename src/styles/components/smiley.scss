@@ -1,0 +1,42 @@
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-359deg);
+	}
+}
+
+.smiley {
+	position: fixed;
+	z-index: 2;
+
+	bottom: 20px;
+	left: 20px;
+
+	.smiley__svg {
+		.eye {
+			transform-box: fill-box;
+			transform-origin: center;
+		}
+
+		.mouth {
+			stroke: black;
+			stroke-width: 25px;
+			transform-origin: center;
+		}
+
+		text {
+			font-family: 'Spektra Condensed';
+			font-size: 6.875rem;
+			text-transform: uppercase;
+			fill: #000;
+			transform-box: fill-box;
+			transform-origin: -10px 10px !important;
+		}
+	}
+}
+
+.smiley.rotate {
+	animation: rotation 18s infinite linear;
+}

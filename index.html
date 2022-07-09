@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Technical test 03 - Purée Maison</title>
+	</head>
+	<body>
+		<div id="app">
+			<div data-animation="loader" class="loader"></div>
+
+			<header class="hero">
+				<section class="hero__text">
+					<h1
+						class="hero__title"
+						data-animation="title"
+						data-animation-delay="2.7"
+					>
+						<span
+							class="hero__title__inner hero__title__inner--left"
+							>Je suis
+						</span>
+						<span
+							class="hero__title__inner hero__title__inner--right"
+							><em>un</em> test</span
+						>
+						<span
+							class="hero__title__inner hero__title__inner--bottom"
+							>PM.</span
+						>
+					</h1>
+
+					<h2
+						class="hero__subtitle"
+						data-animation="text"
+						data-animation-delay="3.75"
+					>
+						Front developper 01.07.22
+					</h2>
+
+					<p
+						class="hero__paragraph"
+						data-animation="text"
+						data-animation-delay="3.5"
+					>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</section>
+
+				<aside
+					class="hero__image"
+					data-animation="image"
+					data-animation-delay="2.6"
+				>
+					<div class="hero__image__content">
+						<img
+							class="hero__image__content__inner"
+							src="img/Photo_1.png"
+						/>
+						<img
+							class="hero__image__content__inner"
+							src="img/Photo_2.png"
+						/>
+						<img
+							class="hero__image__content__inner"
+							src="img/Photo_3.png"
+						/>
+					</div>
+				</aside>
+			</header>
+		</div>
+
+		<div class="smiley">
+			<svg
+				class="smiley__svg"
+				width="272"
+				height="272"
+				viewBox="0 0 272 272"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<circle
+					cx="136"
+					cy="136"
+					r="123.5"
+					stroke="black"
+					stroke-width="25"
+				/>
+				<path
+					class="mouth"
+					d="M197 125C197 158.689 169.689 186 136 186C102.311 186 75 158.689 75 125"
+					stroke="black"
+					stroke-width="25"
+				/>
+				<circle cx="109" cy="105" r="20" fill="black" class="eye" />
+				<circle cx="164" cy="105" r="20" fill="black" class="eye" />
+				<text
+					x="50%"
+					y="54%"
+					dominant-baseline="middle"
+					text-anchor="middle"
+					class="counter"
+				>
+					00
+				</text>
+			</svg>
+		</div>
+
+		<script type="module" src="/src/scripts/App.js"></script>
+	</body>
+</html>

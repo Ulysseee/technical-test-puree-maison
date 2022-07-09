@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Rebond Grotesque';
+	src: url('/fonts/RebondGrotesque-Regular.eot');
+	src: url('/fonts/RebondGrotesque-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('/fonts/RebondGrotesque-Regular.woff2') format('woff2'),
+		url('/fonts/RebondGrotesque-Regular.woff') format('woff'),
+		url('/fonts/RebondGrotesque-Regular.ttf') format('truetype'),
+		url('/fonts/RebondGrotesque-Regular.svg#RebondGrotesque-Regular')
+			format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Spektra Condensed';
+	src: url('/fonts/Spektra-CondensedBold.eot');
+	src: url('/fonts/Spektra-CondensedBold.eot?#iefix')
+			format('embedded-opentype'),
+		url('/fonts/Spektra-CondensedBold.woff2') format('woff2'),
+		url('/fonts/Spektra-CondensedBold.woff') format('woff'),
+		url('/fonts/Spektra-CondensedBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}

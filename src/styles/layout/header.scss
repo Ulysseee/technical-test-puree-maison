@@ -1,0 +1,108 @@
+.hero {
+	background: $base-color;
+	position: relative;
+
+	display: flex;
+	padding: 20px 0;
+
+	&__text {
+		width: 55%;
+		padding-right: 46px;
+		position: relative;
+
+		.hero__title {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			font-size: 21.25rem;
+			text-transform: uppercase;
+			letter-spacing: -5px;
+			font-family: 'Spektra Condensed';
+			overflow: hidden;
+
+			&__inner {
+				display: inline-block;
+				height: $title-span-height;
+
+				&--left {
+					text-align: left;
+					margin-bottom: 12px;
+					padding-left: 20px;
+				}
+
+				&--right {
+					text-align: right;
+					padding-left: 20px;
+
+					em {
+						margin-right: 4rem;
+					}
+				}
+
+				&--bottom {
+					margin-top: auto;
+					padding-left: 20px;
+					text-align: center;
+				}
+
+				span {
+					transform-origin: bottom;
+				}
+			}
+		}
+
+		.hero__subtitle {
+			width: 210px;
+			font-size: 1.125rem;
+			text-transform: uppercase;
+
+			position: absolute;
+			top: calc($title-span-height + 12px);
+			left: 20px;
+
+			span {
+				display: inline-block;
+				overflow: hidden;
+			}
+		}
+
+		.hero__paragraph {
+			width: 320px;
+			font-size: 1.125rem;
+			text-transform: uppercase;
+			line-height: 1.07;
+
+			position: absolute;
+			top: calc(2 * $title-span-height + 40px);
+			right: 50px;
+
+			span {
+				display: inline-block;
+				overflow: hidden;
+			}
+		}
+	}
+
+	&__image {
+		width: 45%;
+		height: calc(100vh - 40px);
+		padding-right: 20px;
+
+		&__content {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+
+			&__inner {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+
+				object-fit: cover;
+			}
+		}
+	}
+}
