@@ -1,6 +1,6 @@
 # Basic Vite starter
 
-The following is a basic Vite starter
+Technical Test for Purée Maison
 
 ## Setup
 
@@ -10,7 +10,7 @@ Run this followed commands :
 ```bash
 # Install dependencies (only the first time)
 npm i
-# Run the local server at localhost:3000
+# Run the local server at localhost:1234
 npm run dev
 # Build for production in the dist/ directory
 npm run build
